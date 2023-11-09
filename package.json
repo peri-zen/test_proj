@@ -1,11 +1,16 @@
 {
-  "name": "proj_test",
+  "name": "test_proj",
   "version": "1.0.0",
   "description": "",
   "main": "test.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./src/app.js",
-    "dev": "nodemon ./src/app.js"  },
+    "start": "node test.js",
+    "dev": "nodemon test.js"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
